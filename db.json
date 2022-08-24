@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "star": "4",
+      "author": "Gabriel Soare",
+      "mensagem": "Tive uma ótima requisição"
+    },
+    {
+      "id": 2,
+      "star": "5",
+      "author": "Maria Silva",
+      "mensagem": "Dados da previsão corretos com o a minha localização"
+    }
+  ]
+}
