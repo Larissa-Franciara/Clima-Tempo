@@ -31,7 +31,7 @@
             placeholder='Deixa sua opinião'
             class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white"
         />
-        <button type="submit" class="py-3 my-8 text-lg bg-gradient-to-r from-purple-500 to-indigo-600 rounded-xl text-white">Enviar</button>
+        <button type="submit" class="py-3 my-8 text-lg bg-orange-500 from-orange-500 to-indigo-600 rounded-xl text-white">Enviar</button>
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@ const onSubmit = () => {
 .star-icon{
   list-style-type: none;
   cursor: pointer;
-  color: #ffe500;
+  color: #ffab00;
   font-size: 40px;
 }
 .star-icon::before{
