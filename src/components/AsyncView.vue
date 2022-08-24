@@ -109,7 +109,7 @@
         @click="removeCity"
     >
       <i class="fa-solid fa-trash"></i>
-      <p>Remove City</p>
+      <p>REMOVER</p>
     </div>
   </div>
 </template>
