@@ -51,16 +51,20 @@ const feedback = ref({
   star: ''
 })
 
+
 const onSubmit = () => {
   api
       .post("/posts", feedback)
       .then(() => {
-        console.log('Usuário cadastrado com sucesso')
+        console.log('Mensagem enviada com sucesso');
+
       })
       .catch((error) => {
         console.log(error);
       });
+
 }
+
 
 </script>
 
