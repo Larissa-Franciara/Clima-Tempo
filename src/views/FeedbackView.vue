@@ -43,7 +43,7 @@
 
 <script setup>
 import api from "../composables/useApi.js";
-import {ref} from "vue";
+import { ref } from 'vue'
 
 
 
@@ -57,36 +57,19 @@ const feedback = ref({
 
 const onSubmit = () => {
   api
-      .post("/posts", feedback)
-      .then(() => {
-        console.log('Mensagem enviada com sucesso')
+      .post("posts", feedback)
+      .then((res) => {
+        console.log('Mensagem enviada com sucesso', res.data)
 
       })
       .catch((error) => {
         console.log(error);
-      });
+      })
+
 }
 
 </script>
 
 <style>
-.avaliacao{
-  display: flex;
-}
-.star-icon{
-  list-style-type: none;
-  cursor: pointer;
-  color: #ffab00;
-  font-size: 40px;
-}
-.star-icon::before{
-  content: "\2605";
-}
 
-.avaliacao:hover .star-icon::before{
-  content: "\2605";
-}
-.star-icon:hover ~ .star-icon::before{
-  content: "\2606";
-}
 </style>
