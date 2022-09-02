@@ -24,7 +24,7 @@
     <RouterLink :to="{ name: 'feedback' }">
       <div class="flex items-center gap-3">
         <i class="fa-solid fa-check text-2xl"></i>
-        <p class="text-2xl"> Feedback </p>
+        <p class="text-1xl"> Feedback </p>
       </div>
     </RouterLink>
 
